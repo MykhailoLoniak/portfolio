@@ -1,0 +1,132 @@
+.navConteiner {
+  position: sticky;
+  top: 0;
+}
+.conteiner {
+  position: absolute; /* Встановлюємо абсолютне позиціонування */
+  right: 0; /* Вирівнюємо по правому краю */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+  transition: transform 0.3s ease-in-out;
+  z-index: 11;
+}
+.conteiner.active {
+  display: block; /* Відображаємо при активному стані */
+  margin-top: 20px;
+}
+
+.button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid black;
+  display: block;
+}
+.buttonBlock {
+  display: flex;
+}
+
+li {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  border: 2px solid black;
+  background-color: white;
+}
+ul li {
+  list-style: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+@media (max-width: 850px) {
+  .conteiner {
+    display: none;
+  }
+  .burgerButton {
+    display: block;
+    position: absolute; /* Встановлюємо абсолютне позиціонування */
+    right: -30px;
+    top: 20px; /* Вирівнюємо по правому краю */
+  }
+  .burgerButton {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 12;
+  }
+
+  .burgerBar {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    border-radius: 50px;
+    margin: 3px 0;
+    transition: transform 0.3s ease-in-out; /* Додайте анімацію переходу */
+  }
+  .activDayNignt {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    border-radius: 50px;
+    margin: 3px 0;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  /* Стилі для першої та третьої ліній хрестика */
+  .burgerButton.active .activDayNignt:first-child {
+    transform: rotate(45deg) translate(5px, 5px);
+    background-color: #fff;
+  }
+
+  .burgerButton.active .activDayNignt:last-child {
+    transform: rotate(-45deg) translate(5px, -5px);
+    background-color: #fff;
+  }
+
+  /* Стилі для другої лінії (перекресні лінії хрестика) */
+  .burgerButton.active .activDayNignt:nth-child(2) {
+    opacity: 0;
+    :aliceblue ;
+  }
+
+  /* Стилі для першої та третьої ліній хрестика */
+  .burgerButton.active .burgerBar:first-child {
+    transform: rotate(45deg) translate(5px, 5px);
+    background-color: #fff;
+  }
+
+  .burgerButton.active .burgerBar:last-child {
+    transform: rotate(-45deg) translate(5px, -5px);
+    background-color: #fff;
+  }
+
+  /* Стилі для другої лінії (перекресні лінії хрестика) */
+  .burgerButton.active .burgerBar:nth-child(2) {
+    opacity: 0;
+    :aliceblue ;
+  }
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Змініть прозорість якщо потрібно */
+  z-index: 10; /* Позиціонуйте поверх інших елементів */
+}

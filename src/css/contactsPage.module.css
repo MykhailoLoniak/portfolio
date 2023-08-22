@@ -1,0 +1,29 @@
+.cont {
+  text-align: center;
+  width: 85%;
+}
+.button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid black;
+}
+.imgCont {
+  font-size: 55px;
+  cursor: pointer;
+  margin: 5px;
+}
+@media (max-width: 850px) {
+  .cont {
+    width: 100%;
+  }
+}
+.cont a {
+  color: black;
+}
+.cont h3 {
+  margin: 25px;
+}

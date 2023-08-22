@@ -1,0 +1,18 @@
+.iconsSkils {
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.iconsSkils .img {
+  font-size: 150px;
+}
+.inonsConteiner {
+  display: inline-block;
+  width: 85%;
+  text-align: center;
+}
+
+.inonsConteiner h3 {
+  margin: 25px;
+}

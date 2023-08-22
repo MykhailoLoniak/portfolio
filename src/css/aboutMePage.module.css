@@ -1,0 +1,58 @@
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 85%;
+}
+
+.language {
+  cursor: pointer;
+  color: gray;
+}
+.activeDayNingt {
+  color: white;
+}
+.activeDayNingt > span {
+  color: white;
+}
+
+.active {
+  color: black;
+  font-weight: 900;
+}
+.mainConteiner {
+  display: block;
+  flex: 1;
+}
+.mainConteiner img {
+  width: 85%;
+  height: auto;
+  text-align: center;
+}
+.mainConteiner span {
+  display: inline-block;
+  width: 85%;
+}
+
+@media (max-width: 850px) {
+  .conteiner {
+    width: 100%;
+  }
+  .imageContainer img {
+    width: 100%;
+  }
+  div span {
+    width: 100%;
+  }
+  .mainConteiner img {
+    width: 100%;
+  }
+  .mainConteiner span {
+    width: 100%;
+  }
+}
+.dayNight {
+  font-size: 50px;
+}
