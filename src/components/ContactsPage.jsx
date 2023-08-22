@@ -6,6 +6,7 @@ function ContactsPage({ language, setLanguage }) {
     'https://www.instagram.com/lonyakmisha/?igshid=MzNlNGNkZWQ4Mg%3D%3D',
     'https://t.me/MykhailoLoniak',
     'mailto:loniakmykhail@gmail.com',
+    'https://github.com/MykhailoLoniak',
   ];
   return (
     <div className={styles.cont} id='contacts'>
