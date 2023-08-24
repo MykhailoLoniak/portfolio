@@ -35,17 +35,6 @@ function Portfolio({ language, dayNight }) {
       alt: 'Logo',
       url: 'https://music-player-teal-two.vercel.app/',
     },
-    {
-      titleUa: 'Радіо-програвач',
-      titleEng: 'Radio Player',
-      img: 'https://raw.githubusercontent.com/MykhailoLoniak/music-player/master/Capture.PNG',
-      aboutUa:
-        'Цей проект є веб-додатком, який дозволяє користувачам відтворювати різні радіостанції. Додаток створений за допомогою React та CSS, і має ряд функціональних можливостей для відтворення аудіо та управління плейлистами.',
-      aboutEng:
-        'This project is a web application that allows users to play various radio stations. The application is built using React and CSS, and it incorporates a range of functionalities for audio playback and playlist management.',
-      alt: 'Logo',
-      url: 'https://mykhailoloniak.github.io/xo/',
-    },
   ];
   return (
     <div className={styles.container}>
