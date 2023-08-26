@@ -25,17 +25,6 @@ function Portfolio({ language, dayNight }) {
       url: 'https://mykhailoloniak.github.io/Bank/',
     },
     {
-      titleUa: 'Погодний додаток',
-      titleEng: 'Weather app',
-      img: 'https://raw.githubusercontent.com/MykhailoLoniak/Weather/master/Capture.PNG',
-      aboutUa:
-        'Це погодний додаток, який відображає поточну погоду та час для певної локації. Додаток використовує дані з API OpenWeatherMap для отримання інформації про погоду.',
-      aboutEng:
-        'This is a weather application that displays the current weather and time for a specific location. The application utilizes data from the OpenWeatherMap API to retrieve weather information.',
-      alt: 'Logo',
-      url: 'https://weather-eight-lyart.vercel.app/',
-    },
-    {
       titleUa: 'Радіо-програвач',
       titleEng: 'Radio Player',
       img: 'https://raw.githubusercontent.com/MykhailoLoniak/music-player/master/Capture.PNG',
@@ -45,6 +34,17 @@ function Portfolio({ language, dayNight }) {
         'This project is a web application that allows users to play various radio stations. The application is built using React and CSS, and it incorporates a range of functionalities for audio playback and playlist management.',
       alt: 'Logo',
       url: 'https://music-player-teal-two.vercel.app/',
+    },
+    {
+      titleUa: 'Погодний додаток',
+      titleEng: 'Weather app',
+      img: 'https://raw.githubusercontent.com/MykhailoLoniak/Weather/master/Capture.PNG',
+      aboutUa:
+        'Це погодний додаток, який відображає поточну погоду та час для певної локації. Додаток використовує дані з API OpenWeatherMap для отримання інформації про погоду.',
+      aboutEng:
+        'This is a weather application that displays the current weather and time for a specific location. The application utilizes data from the OpenWeatherMap API to retrieve weather information.',
+      alt: 'Logo',
+      url: 'https://weather-eight-lyart.vercel.app/',
     },
   ];
   return (
