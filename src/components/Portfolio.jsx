@@ -25,6 +25,17 @@ function Portfolio({ language, dayNight }) {
       url: 'https://mykhailoloniak.github.io/Bank/',
     },
     {
+      titleUa: 'Погодний додаток',
+      titleEng: 'Weather app',
+      img: 'https://raw.githubusercontent.com/MykhailoLoniak/Weather/master/Capture.PNG',
+      aboutUa:
+        'Це погодний додаток, який відображає поточну погоду та час для певної локації. Додаток використовує дані з API OpenWeatherMap для отримання інформації про погоду.',
+      aboutEng:
+        'This is a weather application that displays the current weather and time for a specific location. The application utilizes data from the OpenWeatherMap API to retrieve weather information.',
+      alt: 'Logo',
+      url: 'https://weather-eight-lyart.vercel.app/',
+    },
+    {
       titleUa: 'Радіо-програвач',
       titleEng: 'Radio Player',
       img: 'https://raw.githubusercontent.com/MykhailoLoniak/music-player/master/Capture.PNG',
